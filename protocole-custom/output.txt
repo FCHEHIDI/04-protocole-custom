@@ -1,0 +1,9 @@
+   Compiling protocole-custom v0.1.0 (D:\04-protocole-custom\protocole-custom)
+    Finished `test` profile [unoptimized + debuginfo] target(s) in 0.45s
+     Running unittests src\lib.rs (target\debug\deps\modbus_rtu-17c8c3c4c1345f74.exe)
+
+running 1 test
+test crc16::tests::test_crc_known_frame ... ok
+
+test result: ok. 1 passed; 0 failed; 0 ignored; 0 measured; 0 filtered out; finished in 0.00s
+
