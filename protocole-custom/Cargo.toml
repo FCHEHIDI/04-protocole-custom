@@ -1,0 +1,17 @@
+[package]
+name = "protocole-custom"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+name = "modbus_rtu"
+
+[dependencies]
+heapless = "0.8"
+
+[dev-dependencies]
+# rien pour l'instant
+
+[profile.release]
+opt-level = "s"
+lto = true
